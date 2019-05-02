@@ -1,0 +1,45 @@
+---
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: group1
+---
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: group2
+---
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: group3
+---
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: group4
+---
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: group5
+---
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: group6
+---
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: group7
+---
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: group8
+---
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: group9

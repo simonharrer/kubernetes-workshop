@@ -1,0 +1,8 @@
+secrets.json
+.terraform
+*.tfstate*
+events.csv
+.DS_Store
+k8s/
+all
+account.txt

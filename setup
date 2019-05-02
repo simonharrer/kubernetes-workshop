@@ -1,0 +1,4 @@
+terraform init
+terraform apply -auto-approve
+gcloud container clusters get-credentials kubernetes-workshop --region=europe-west3
+kubectl apply -f namespaces.yaml
