@@ -4,5 +4,4 @@ secrets.json
 events.csv
 .DS_Store
 k8s/
-all
 account.txt

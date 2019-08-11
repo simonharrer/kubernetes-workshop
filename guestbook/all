@@ -1,0 +1,12 @@
+for i in `seq 1 9`;
+do
+
+kubectl config set-context $(kubectl config current-context) --namespace=group$i
+kubectl create secret generic mysql --from-literal=password=YOUR_PASSWORD
+kubectl apply -f .
+kubectl scale deployment frontend --replicas=5
+
+done  
+
+
+
